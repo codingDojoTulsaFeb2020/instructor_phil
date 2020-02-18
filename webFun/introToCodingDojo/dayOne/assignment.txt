@@ -1,0 +1,19 @@
+variables
+  string
+  number
+  undefined
+  null
+  boolean
+conditionals
+  if/else
+  if/else if/else
+  compound conditionals
+math operations
+  modules
+  Math.
+    round
+    floor
+    ceil
+    trunc
+t-diagrams
+writing/testing code

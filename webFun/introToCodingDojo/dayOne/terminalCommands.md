@@ -1,0 +1,10 @@
+- [ ] Open Terminal
+- [ ] Navigate to your Desktop
+- [ ] Create a new directory, call it 'test'
+- [ ] Make files called index.html, styles.css, commands.txt inside the test directory
+- [ ] Make a copy of index.html and call it index_2.html
+- [ ] Navigate back to your desktop and make another directory, call it 'destination'
+- [ ] In the 'test' directory, remove the 'styles.css' file
+- [ ] Now, check and see what files are in the 'test' and 'destination' directories
+- [ ] Remove/delete the 'destination' directory
+- [ ] Write the commands you used to do the above and save them in commands.txt

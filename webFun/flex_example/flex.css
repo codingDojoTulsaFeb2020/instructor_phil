@@ -1,0 +1,23 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border:1px solid black;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box div {
+    width: 200px;
+    background: rebeccapurple;
+    border: 1px solid black;
+    height: 25vh;
+}
+.box div:first-of-type {
+    height: 50vh;
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}

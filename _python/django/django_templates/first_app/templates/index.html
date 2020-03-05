@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style/index.css' %}">
+    <script src="{% static 'js/index.js' %}"></script>
+</head>
+<body>
+    <h1>Index page</h1>
+    <form action="/process" method="get">
+        {% csrf_token %}
+        <input type="text" name="name">
+        <br>
+        <input type="number" name="age">
+        <button>Submit</button>
+    </form>
+</body>
+</html>

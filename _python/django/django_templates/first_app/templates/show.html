@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Name: {{ name }}</h1>
+    {% if id < 4 %}
+        <h3>Id is: {{ id }}</h3>
+    {% else %}
+        <h3>Too high</h3>
+    {% endif %}
+
+    {% for x in end_loop %}
+        <p>{{ x }}</p>
+    {% endfor %}
+</body>
+</html>
